@@ -1,0 +1,102 @@
+/* import Geologica web font */
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.container {
+    padding: 3rem;
+    width: 60%;
+    margin: 4rem auto;
+}
+
+.counter_title {
+    text-align: center;
+    color: green;
+    font-size: 100px;
+}
+
+.counter_num {
+    text-align: center;
+    color: blue;
+    font-size: 90px;
+}
+
+.button_container {
+    text-align: center;
+}
+
+.counter_dec {
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    padding: 4px 23px;
+    margin: auto 5px;
+}
+
+.counter_dec:hover {
+    background-color: #BEBEBE;
+}
+
+.counter_reset {
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    padding: 4px 23px;
+    margin: auto 5px;
+}
+
+.counter_reset:hover {
+    background-color: #BEBEBE;
+}
+
+.counter_inc {
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    padding: 4px 23px;
+    margin: auto 5px;
+}
+
+.counter_inc:hover {
+    background-color: #BEBEBE;
+}
+
+
+/* transitioning to mobile view */
+@media(max-width: 800px){
+    .counter_title {
+        font-size: 50px;
+    }
+    .counter_num {
+        font-size: 40px;
+    }
+    .counter_dec {
+        border-radius: 5px;
+        font-size: 10px;
+        background-color: #FAFAFA;
+        padding: 1px 8px;
+        margin: auto 5px;
+    }
+    
+    .counter_reset {
+        border-radius: 5px;
+        font-size: 10px;
+        background-color: #FAFAFA;
+        padding: 1px 8px;
+        margin: auto 5px;
+    }
+    
+    .counter_inc {
+        border-radius: 5px;
+        font-size: 10px;
+        background-color: #FAFAFA;
+        padding: 1px 5px;
+    }
+}
